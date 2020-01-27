@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import { Button } from 'component-lib';
 import './App.css';
 
 const App: React.FC = () => {
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <Button onClick={() => console.log('hello')}>Button</Button>
     </div>
   );
 }
